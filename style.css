@@ -1,0 +1,113 @@
+@font-face {
+  font-family: ADELIA;
+  src: url(/ADELIA.otf);
+}
+
+@font-face {
+  font-family: bubblegum;
+  src: url(/Bubblegum.ttf);
+}
+
+@font-face {
+  font-family: madena;
+  src: url(/MadenaParllingRegular.ttf);
+}
+
+@font-face {
+  font-family: louis-cafe;
+  src: url(/Louis\ George\ Cafe.ttf);
+}
+
+html {
+  background: linear-gradient(
+    to top,
+    rgba(255, 162, 214, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 0;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+body {
+  border: 0;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+  box-sizing: 100vh;
+}
+.main-header {
+  font-family: ADELIA;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.secondary-header {
+  font-family: bubblegum;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.image {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.box {
+  position: relative;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+
+p {
+font-size: 2rem;
+font-family: louis-cafe;
+text-align: center;
+background-color: rgb(213, 255, 253);
+padding: 10%;
+ }
+
+ @media only screen and (max-width: 600px){
+  .box {
+    position: relative;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+  }
+  .image {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-family: louis-cafe;
+    text-align: center;
+    background-color: rgb(213, 255, 253);
+    padding: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+     }
+ }
